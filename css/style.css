@@ -1,0 +1,154 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+	background: url("/resource/images/map.png") no-repeat scroll 50% 0px, url("/resource/images/bg.png") repeat fixed 0 0px, none repeat scroll 0 0 #F8F6F3;
+}
+.spkmgr-main-title {
+	color: #4D4D4D;
+}
+.spkmgr-login-form {
+	text-align: center;
+}
+.spkmgr-input {
+	width: 100%;
+}
+.spkmgr-label {
+	text-align: left;
+}
+.spkmgr-login-button {
+	float: right;
+}
+.soften {
+	background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent);
+    border: 0 none;
+    height: 1px;
+}
+.copyright{
+	color: #AAAAAA;
+    font-size: 11px;
+    text-align: right;
+}
+.spkmgr-container
+{
+	margin-top: 10%;
+	border: 1px solid #BFBFBF;
+	border-radius: 4px 4px 4px 4px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	display: block;
+	width: 80%;
+	height: 85%;
+	padding: 32px;
+	-moz-transition: border-color 0s ease 0s, box-shadow 0.25s linear 0s;
+	margin: auto;
+	margin-top: 10%;
+	font-size: 100%;
+	outline: 0 none;
+	opacity: 0.8;
+}
+.spkmgr-toolbar-span-label{
+	margin-top: 5px; 
+	margin-left: 15px; 
+	margin-right: 0;
+}
+.spkmgr-toolbar-span-input-right
+{
+	text-align: left;
+}
+.spkmgr-toolbar-span-input
+{
+	text-align: left; 
+	margin-right: 0; 
+	margin-left: 0; 
+}
+.spkmgr-toolbar-fieldset
+{
+	margin-top: 10px;
+}
+.spkmgr-toolbar
+{
+	background: url("/resource/images/bg_fullbar.png") repeat fixed 0 0 #E4E2DF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px 0 #FFFFFF;
+    height: 49px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.spkmgr-container:hover
+{
+	border-color: #627AAD;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.spkmgr-group
+{
+	padding: 18px;
+	float: none;
+}
+.spkmgr-sw
+{
+    border-left: 1px solid #CCCCCC;
+    bottom: 0;
+    padding-top: 10px;
+    right: 10px;
+    top: 0;
+	height: 39px;
+}
+[class^="icon-"] {
+    background-image: url("/resource/images/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+}
+.icon-white {
+    background-image: url("/resource/images/glyphicons-halflings.png");
+}
+[class^="icon-"]:last-child {
+}
+.icon-envelope {
+    background-position: -72px 0;
+}
+.icon-trash {
+    background-position: -456px 0;
+}
+.icon-align-left {
+    background-position: -264px -48px;
+}
+.icon-align-center {
+    background-position: -288px -48px;
+}
+.icon-align-right {
+    background-position: -312px -48px;
+}
+.icon-align-justify {
+    background-position: -336px -48px;
+}
+.icon-pencil {
+    background-position: 0 -72px;
+}
+.icon-ban-circle {
+    background-position: -216px -96px;
+}
+.icon-list-alt {
+    background-position: -264px -24px;
+}
+.icon-user {
+    background-position: -168px 0;
+}
+.icon-plus-sign {
+    background-position: 0 -96px;
+}
+.icon-minus-sign {
+    background-position: -24px -96px;
+}
+.icon-active {
+    background-position: -120px 0;
+}
+.icon-deactive {
+    background-position: -144px 0;
+}
+.icon-arrow-down {
+    background-position: -313px -119px;
+}

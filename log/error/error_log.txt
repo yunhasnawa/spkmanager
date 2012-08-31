@@ -1,0 +1,480 @@
+[03-Aug-2012 14:18:16] PHP Fatal error:  Class 'Home' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 35
+[03-Aug-2012 14:20:23] PHP Warning:  include(/Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/index.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/View.php on line 25
+[03-Aug-2012 14:20:23] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/index.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/View.php on line 25
+[03-Aug-2012 16:19:13] PHP Notice:  Uninitialized string offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 20
+[03-Aug-2012 16:19:13] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[03-Aug-2012 22:38:41] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[03-Aug-2012 22:46:51] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[03-Aug-2012 22:49:32] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[03-Aug-2012 22:51:02] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[03-Aug-2012 22:51:40] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[03-Aug-2012 22:52:13] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[03-Aug-2012 22:52:14] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[03-Aug-2012 22:52:15] PHP Fatal error:  Class 'framework\icf\library\Auth' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/Controller.php on line 23
+[04-Aug-2012 05:59:50] PHP Warning:  include(header.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 2
+[04-Aug-2012 05:59:50] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'header.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 2
+[04-Aug-2012 05:59:50] PHP Warning:  include(footer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 8
+[04-Aug-2012 05:59:50] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'footer.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 8
+[04-Aug-2012 06:00:37] PHP Warning:  include(..header.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 2
+[04-Aug-2012 06:00:37] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '..header.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 2
+[04-Aug-2012 06:00:37] PHP Warning:  include(..footer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 8
+[04-Aug-2012 06:00:37] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '..footer.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 8
+[04-Aug-2012 06:00:52] PHP Warning:  include(..\header.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 2
+[04-Aug-2012 06:00:52] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '..\header.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 2
+[04-Aug-2012 06:00:52] PHP Warning:  include(..\footer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 8
+[04-Aug-2012 06:00:52] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '..\footer.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 8
+[04-Aug-2012 06:01:41] PHP Warning:  include(/Applications/XAMPP/xamppfiles/htdocs/spkmanager/header.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 2
+[04-Aug-2012 06:01:41] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/Applications/XAMPP/xamppfiles/htdocs/spkmanager/header.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 2
+[04-Aug-2012 06:01:41] PHP Warning:  include(/Applications/XAMPP/xamppfiles/htdocs/spkmanager/footer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 8
+[04-Aug-2012 06:01:41] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/Applications/XAMPP/xamppfiles/htdocs/spkmanager/footer.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 8
+[04-Aug-2012 06:16:50] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:16:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:17:20] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:20] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:20] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:20] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:20] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:29] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:29] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:29] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:29] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:17:29] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:19:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:21:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:24:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:27:15] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 50
+[04-Aug-2012 06:30:35] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 60
+[04-Aug-2012 06:30:37] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 60
+[04-Aug-2012 06:33:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:33:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:33:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:33:55] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:36:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:36:08] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:36:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:44) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 06:37:28] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 53
+[04-Aug-2012 06:38:42] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 54
+[04-Aug-2012 06:50:15] PHP Notice:  Uninitialized string offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 93
+[04-Aug-2012 07:10:58] PHP Notice:  Undefined variable: message in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 3
+[04-Aug-2012 07:11:00] PHP Notice:  Undefined variable: message in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/authentication/accountHome.php on line 3
+[04-Aug-2012 07:17:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:31) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 07:17:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:31) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 07:17:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:31) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 07:18:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:31) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 22
+[04-Aug-2012 07:55:47] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 28
+[04-Aug-2012 07:55:47] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 29
+[04-Aug-2012 07:57:37] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 28
+[04-Aug-2012 07:57:37] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 29
+[04-Aug-2012 08:11:06] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 28
+[04-Aug-2012 08:11:06] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 29
+[04-Aug-2012 08:25:01] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:57) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 80
+[04-Aug-2012 08:25:01] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:57) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 80
+[04-Aug-2012 08:31:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php:60) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 80
+[04-Aug-2012 08:31:56] PHP Notice:  Undefined variable: _SESSION in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 60
+[04-Aug-2012 08:34:28] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php:60) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 81
+[04-Aug-2012 08:38:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php:33) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 82
+[04-Aug-2012 08:38:33] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php:33) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 82
+[04-Aug-2012 09:23:02] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 28
+[04-Aug-2012 09:23:02] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 29
+[04-Aug-2012 22:42:20] PHP Notice:  Undefined variable: content in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 220
+[04-Aug-2012 22:44:43] PHP Notice:  Undefined variable: content in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 223
+[05-Aug-2012 04:56:22] PHP Notice:  Undefined variable: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/nav.php on line 12
+[05-Aug-2012 05:51:47] PHP Notice:  Undefined property: framework\icf\library\Auth::$getUsername in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/nav.php on line 12
+[05-Aug-2012 07:02:58] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 28
+[05-Aug-2012 07:02:58] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 29
+[05-Aug-2012 09:02:16] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:16] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:16] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:16] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:16] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:16] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:16] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:16] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:17] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:17] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:17] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:17] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:17] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:17] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:17] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:17] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:18] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:18] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:18] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:18] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:18] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:18] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:18] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:18] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:19] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:19] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:19] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:19] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:19] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:19] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:19] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:19] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:20] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:20] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:20] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:20] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:20] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:20] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:20] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:20] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:21] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:21] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:21] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:21] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:21] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:21] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:21] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:21] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:22] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:22] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:22] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:22] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:22] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:22] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:22] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:22] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:23] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:23] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:23] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:23] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:23] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:23] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:23] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:23] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:24] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:24] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:24] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:24] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:24] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:24] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:24] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:24] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:25] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:25] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:25] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:25] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:25] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:25] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:25] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:25] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:32] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:32] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:32] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:32] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:32] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:32] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:33] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:33] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:33] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:33] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:33] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:33] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:34] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:34] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:34] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:34] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:34] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:34] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:34] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:34] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:35] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:35] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:35] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:35] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:35] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:35] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:35] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:35] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:36] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:36] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:36] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:36] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:36] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:36] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:36] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:36] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:37] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:37] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:37] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:37] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:37] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:37] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:37] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:37] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:38] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:38] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:38] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:38] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:38] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:38] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:38] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:38] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:39] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:39] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:39] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:39] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:02:39] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[05-Aug-2012 09:02:39] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[05-Aug-2012 09:39:12] PHP Warning:  require_once(/Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/BuatSpk.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 27
+[05-Aug-2012 09:39:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/BuatSpk.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 27
+[05-Aug-2012 09:45:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:30) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:45:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:30) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:41] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:42] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:45] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:45] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:47] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:47] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:48] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:48] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:50] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:50] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:51] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 09:53:51] PHP Notice:  A session had already been started - ignoring session_start() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 61
+[05-Aug-2012 10:13:06] PHP Notice:  Undefined property: framework\icf\library\Auth::$_redirBack in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 183
+[05-Aug-2012 10:13:10] PHP Notice:  Undefined property: framework\icf\library\Auth::$_redirBack in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 183
+[05-Aug-2012 10:23:04] PHP Warning:  include(/Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/buat_spk/index.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/View.php on line 62
+[05-Aug-2012 10:23:04] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/buat_spk/index.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/View.php on line 62
+[05-Aug-2012 16:18:05] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[05-Aug-2012 16:57:27] PHP Fatal error:  Class 'model\Model_Spk' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 16
+[05-Aug-2012 16:58:09] PHP Warning:  require_once(..model/Model_Spk.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 3
+[05-Aug-2012 16:58:09] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '..model/Model_Spk.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 3
+[05-Aug-2012 16:59:30] PHP Fatal error:  Class 'Model_Spk' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 17
+[05-Aug-2012 17:11:58] PHP Fatal error:  Class 'model\Base' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/model/Model_Spk.php on line 20
+[05-Aug-2012 17:12:09] PHP Fatal error:  Class 'model\Base' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/model/Model_Spk.php on line 20
+[05-Aug-2012 17:48:06] PHP Warning:  Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Sql.php on line 220
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:07:51] PHP Notice:  Undefined index: field in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 44
+[05-Aug-2012 18:23:47] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[05-Aug-2012 18:23:57] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[05-Aug-2012 18:24:09] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[05-Aug-2012 18:25:17] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[05-Aug-2012 18:26:34] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[05-Aug-2012 21:49:54] PHP Notice:  Undefined variable: count in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/home/index.php on line 26
+[06-Aug-2012 04:31:10] PHP Warning:  file_get_contents(/Applications/XAMPP/xamppfiles/htdocs/spkmanager//Applications/XAMPP/xamppfiles/htdocs/spkmanager/ecma/main.css) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 236
+[06-Aug-2012 04:32:19] PHP Warning:  file_get_contents(/Applications/XAMPP/xamppfiles/htdocs/spkmanager//Applications/XAMPP/xamppfiles/htdocs/spkmanager/ecma/main.js) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 236
+[06-Aug-2012 04:32:22] PHP Warning:  file_get_contents(/Applications/XAMPP/xamppfiles/htdocs/spkmanager//Applications/XAMPP/xamppfiles/htdocs/spkmanager/ecma/main.js) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php on line 236
+[06-Aug-2012 14:26:49] PHP Notice:  Undefined variable: fullHeading in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/status_spk/index.php on line 14
+[06-Aug-2012 14:26:49] PHP Warning:  Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/status_spk/index.php on line 14
+[06-Aug-2012 14:26:57] PHP Notice:  Undefined variable: fullHeading in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/status_spk/index.php on line 14
+[06-Aug-2012 14:26:57] PHP Warning:  Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/status_spk/index.php on line 14
+[06-Aug-2012 14:27:03] PHP Notice:  Undefined variable: fullHeading in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/status_spk/index.php on line 14
+[06-Aug-2012 14:27:03] PHP Warning:  Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/status_spk/index.php on line 14
+[06-Aug-2012 14:59:57] PHP Notice:  Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/status_spk/index.php on line 53
+[06-Aug-2012 14:59:57] PHP Notice:  Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/status_spk/index.php on line 53
+[06-Aug-2012 15:41:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:39) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:42:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Base.php:39) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:45:44] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[06-Aug-2012 15:45:48] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[06-Aug-2012 15:47:00] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[06-Aug-2012 15:50:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:50:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:50:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:50:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:50:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:50:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 15:53:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php:65) in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Auth.php on line 63
+[06-Aug-2012 16:00:18] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[06-Aug-2012 16:01:29] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 04:23:30] PHP Fatal error:  Call to undefined method Cetak_SPK::preview() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 04:26:45] PHP Fatal error:  Call to undefined method Cetak_SPK::preview() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 04:26:49] PHP Fatal error:  Call to undefined method Cetak_SPK::preview() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 04:26:51] PHP Fatal error:  Call to undefined method Cetak_SPK::preview() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 04:32:13] PHP Fatal error:  Class 'model\Model_Spk' not found in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Cetak_Spk.php on line 17
+[07-Aug-2012 05:43:17] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 05:46:13] PHP Fatal error:  Call to undefined method Buat_Spk::delete() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 05:52:43] PHP Fatal error:  Call to undefined method Buat_Spk::delete() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 05:52:44] PHP Fatal error:  Call to undefined method Buat_Spk::delete() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 05:55:42] PHP Fatal error:  Call to undefined method Buat_Spk::edit() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 48
+[07-Aug-2012 05:58:35] PHP Warning:  include(/Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/Array.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/View.php on line 62
+[07-Aug-2012 05:58:35] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/Array.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php:/Applications/XAMPP/xamppfiles/lib/php/pear') in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/pattern/View.php on line 62
+[07-Aug-2012 06:00:00] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 61
+[07-Aug-2012 06:00:15] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 61
+[07-Aug-2012 06:03:21] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 59
+[07-Aug-2012 06:21:34] PHP Notice:  Use of undefined constant id - assumed 'id' in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 41
+[07-Aug-2012 06:24:27] PHP Notice:  Undefined variable: data in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 41
+[07-Aug-2012 06:24:27] PHP Notice:  Undefined variable: data in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 45
+[07-Aug-2012 06:24:33] PHP Notice:  Undefined index: nomor in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 37
+[07-Aug-2012 06:24:33] PHP Notice:  Undefined variable: data in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 41
+[07-Aug-2012 06:24:33] PHP Notice:  Undefined variable: data in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 49
+[07-Aug-2012 06:24:33] PHP Warning:  Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Sql.php on line 127
+[07-Aug-2012 06:24:44] PHP Notice:  Undefined index: nomor in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 37
+[07-Aug-2012 06:24:44] PHP Notice:  Undefined variable: data in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 41
+[07-Aug-2012 06:24:44] PHP Notice:  Undefined variable: data in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 49
+[07-Aug-2012 06:24:44] PHP Warning:  Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/library/Sql.php on line 127
+[07-Aug-2012 06:24:51] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 70
+[07-Aug-2012 06:25:18] PHP Notice:  Undefined variable: data in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 41
+[07-Aug-2012 06:25:18] PHP Notice:  Undefined variable: data in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 45
+[07-Aug-2012 06:35:32] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 74
+[07-Aug-2012 06:37:55] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 74
+[07-Aug-2012 06:39:17] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 74
+[07-Aug-2012 06:41:46] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 76
+[07-Aug-2012 06:42:42] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 76
+[07-Aug-2012 06:42:55] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 76
+[07-Aug-2012 06:51:11] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 97
+[07-Aug-2012 06:52:44] PHP Warning:  move_uploaded_file(/Applications/XAMPP/xamppfiles/htdocs/spkmanager/resource/images/spk/37fa4ca7f62f330295243b5aac0aa645jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Permission denied in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 73
+[07-Aug-2012 06:52:44] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/Applications/XAMPP/xamppfiles/temp/phpk3v2cv' to '/Applications/XAMPP/xamppfiles/htdocs/spkmanager/resource/images/spk/37fa4ca7f62f330295243b5aac0aa645jpg' in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 73
+[07-Aug-2012 07:03:27] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 95
+[07-Aug-2012 07:15:04] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 95
+[07-Aug-2012 07:18:08] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 07:20:58] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 07:22:26] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 07:24:21] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 07:24:21] PHP Parse error:  syntax error, unexpected T_ECHO in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/buat_spk/baru.php on line 6
+[07-Aug-2012 07:24:28] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 07:24:28] PHP Parse error:  syntax error, unexpected T_ECHO in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/buat_spk/baru.php on line 6
+[07-Aug-2012 07:24:38] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 07:24:38] PHP Parse error:  syntax error, unexpected T_ECHO in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/view/buat_spk/baru.php on line 6
+[07-Aug-2012 07:25:18] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 07:27:30] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 07:29:29] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 10:19:26] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 10:36:56] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 10:46:56] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 10:57:44] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 10:58:12] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[07-Aug-2012 14:56:11] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[08-Aug-2012 17:23:02] PHP Notice:  Undefined index: username in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 30
+[08-Aug-2012 17:23:02] PHP Notice:  Undefined index: password in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Authentication.php on line 31
+[08-Aug-2012 17:24:54] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[08-Aug-2012 17:32:58] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 109
+[08-Aug-2012 17:35:32] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 111
+[08-Aug-2012 17:35:34] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 111
+[08-Aug-2012 17:35:35] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 111
+[08-Aug-2012 17:36:03] PHP Notice:  Undefined offset: 0 in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Buat_Spk.php on line 113
+[08-Aug-2012 21:47:02] PHP Notice:  Undefined index: g in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/controller/Status_Spk.php on line 107
+[08-Aug-2012 22:03:14] PHP Fatal error:  Call to undefined method framework\icf\main\ICF_Application::_cleanSubDomain() in /Applications/XAMPP/xamppfiles/htdocs/spkmanager/framework/icf/main/ICF_Application.php on line 56
+[09-Aug-2012 18:29:49] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 18:30:37] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 18:52:30] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 19:05:54] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 19:06:02] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 19:06:09] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 19:07:02] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 19:07:54] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 19:16:00] PHP Fatal error:  Uncaught exception 'framework\icf\main\ICF_Exception' with message 'The Model class file is not properly placed, use model directory defined in framework/Setting.php' in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php(39): framework\icf\pattern\Model->validateChild(Array)
+#1 C:\xampp\htdocs\spkmanager\model\Model_Spk.php(13): framework\icf\pattern\Model->__construct('spk')
+#2 C:\xampp\htdocs\spkmanager\controller\Home.php(18): model\Model_Spk->__construct()
+#3 C:\xampp\htdocs\spkmanager\framework\icf\main\ICF_Application.php(43): Home->__construct()
+#4 C:\xampp\htdocs\spkmanager\index.php(36): framework\icf\main\ICF_Application->execute()
+#5 {main}
+  thrown in C:\xampp\htdocs\spkmanager\framework\icf\pattern\Model.php on line 59
+[09-Aug-2012 19:16:44] PHP Notice:  Use of undefined constant SERVER_ENVIRONMENT_UNIX - assumed 'SERVER_ENVIRONMENT_UNIX' in C:\xampp\htdocs\spkmanager\framework\icf\core.php on line 51
+[09-Aug-2012 19:16:44] PHP Fatal error:  Call to a member function query() on a non-object in C:\xampp\htdocs\spkmanager\framework\icf\data_context\Database_Access.php on line 54
+[09-Aug-2012 19:17:08] PHP Fatal error:  Call to a member function query() on a non-object in C:\xampp\htdocs\spkmanager\framework\icf\data_context\Database_Access.php on line 54
+[09-Aug-2012 19:18:28] PHP Fatal error:  Call to a member function query() on a non-object in C:\xampp\htdocs\spkmanager\framework\icf\data_context\Database_Access.php on line 54
+[09-Aug-2012 19:26:27] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\spkmanager\model\Model_Spk.php on line 114
+[09-Aug-2012 19:26:45] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\spkmanager\model\Model_Spk.php on line 114
+[09-Aug-2012 19:26:48] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\spkmanager\model\Model_Spk.php on line 114
+[09-Aug-2012 19:28:36] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\spkmanager\model\Model_Spk.php on line 114
+[09-Aug-2012 19:34:35] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\spkmanager\model\Model_Spk.php on line 114
+[09-Aug-2012 19:52:37 UTC] PHP Fatal error:  Call to a member function query() on a non-object in C:\xampp\htdocs\spkmanager\framework\icf\data_context\Database_Access.php on line 54
+[09-Aug-2012 19:53:24 UTC] PHP Fatal error:  Call to a member function query() on a non-object in C:\xampp\htdocs\spkmanager\framework\icf\data_context\Database_Access.php on line 54
