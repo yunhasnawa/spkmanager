@@ -69,11 +69,11 @@ class Base {
 		
 		$filePath = dirname(__FILE__);
 		
-		$slash = Base::_getSlash($next);
+		$slash = Base::_getSlash();
 		
-		$filePath = str_replace($slash . ICF_Setting::FRAMEWORK_DIRECTORY . $slash . 'icf' . $slash . 'library', '', $filePath) . $slash . $next;
+		$search = $slash . ICF_Setting::FRAMEWORK_DIRECTORY . $slash . 'icf' . $slash . 'library';
 		
-		// FIXME: Windows path compatibility issue
+		$filePath = str_replace($search, '', $filePath) . $slash . $next;
 		
 		return $filePath;
 	}
@@ -181,7 +181,7 @@ PHREDOC;
 		return $callerData;
 	}
 	
-	private static function _getSlash($next, $absoluteSlash = false)
+	private static function _getSlash($next = '', $absoluteSlash = false)
 	{
 		$slash = '';
 		
@@ -197,6 +197,8 @@ PHREDOC;
 			if($first !== $slashType) {
 				$slash = $slashType;
 			}
+		} else {
+			$slash = $slashType;
 		}
 		
 		return $slash;
@@ -281,6 +283,39 @@ PHREDOC;
 		} else {
 			if(isset($var)) return $var;
 			else return $default;
+		}
+	}
+	
+	public static function reformat_date($data, $format, $arrFields = array())
+	{
+		if(!is_object($data) && !is_array($data)) {
+			
+			$date = empty($data) ? date("Y-m-d") : $data;
+			
+			return date($format, strtotime($data));
+			
+		} else {
+			foreach($arrFields as $field)
+			{
+				if(is_array($data)) {
+					
+					$date = empty($data[$field]) ? date("Y-m-d") : $data[$field];
+					
+					$value = date($format, strtotime($date));
+			
+					$data[$field] = $value;
+					
+				} else {
+					
+					$date = empty($data->$$field) ? date("Y-m-d") : $data->$$field;
+
+					$value = date($format, strtotime($date));
+						
+					$data->$$field = $value;
+				}
+			}
+			
+			return $data;
 		}
 	}
 

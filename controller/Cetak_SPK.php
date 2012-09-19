@@ -55,13 +55,29 @@ class Cetak_SPK extends Controller {
 			
 			$data = $data[0];
 			
+			$data = Base::reformat_date($data, "d-m-Y", $this->_mSpk->dateFields);
+			
 			foreach ($data as $field => $value) {
+				
 				$search[]  = '{' . $field . '}';
+				
 				if($field == 'file_stiker') {
+					
 					$replace[] = "http://" . Base::site_url($value);
 					//echo "http://" . Base::site_url($value);
+					
+				} elseif($field == 'status_produksi') {
+					
+					$arrSp = json_decode($value, true);
+					
+					if($arrSp == null) $arrSp = array('New');
+					
+					$replace[] = end($arrSp);
+					
 				} else {
+					
 					$replace[] = $value;
+					
 				}
 			}
 			

@@ -55,22 +55,32 @@ class ICF_Application extends ICF_Object
     	$noQueryUrl  = $this->_cutQueryUrl($this->_url);
     	$noSubdomain = $this->_cutSubdomain($noQueryUrl);
     	$request     = str_replace(Base::site_url('/'), '', $noSubdomain);
+	
+		$request = str_replace('.php', '', $request); // FIXME: This should also detect all extension (.*)
         
         $found = false;
-        
+	
         foreach($this->_route as $path => $class) {
 
-			if(empty($path) && empty($request)){
-                $found = true;
-                break;
-			} elseif(!empty($path)) {
-				//echo $path, " vs ", $request, "<br/>";
-				if(strpos($path, $request) !== false) {
-					$this->_proccessArgs($request, $path);
-					$found = true;
-					break;
-				}
-			}
+	    //echo $path, " vs ", $request, "<br/>";
+	
+	    if(empty($path) && empty($request)){
+            
+	        $found = true;
+            
+		break;
+	    
+	    } elseif(!empty($path)) {
+		
+		if(strpos($path, $request) !== false) {
+		    
+		    $this->_proccessArgs($request, $path);
+		    
+		    $found = true;
+		    
+		    break;
+		}
+	    }
         }
         
         if(!$found) die('Sorry, path not found!');
@@ -86,8 +96,18 @@ class ICF_Application extends ICF_Object
     
     private function _cutSubdomain($url)
     {
-    	$expl = explode('.', $url);
-    
+	if(strpos($url, '/') !== false) {
+	    
+	    $subExpl = explode('/', $url);
+	    
+	    $expl = explode('.', $subExpl[0]);
+	    
+	} else {
+	    
+	    $expl = explode('.', $url);
+	
+	}
+	
     	$urlNew = '';
     
     	if(count($expl) > 2) {
@@ -99,6 +119,9 @@ class ICF_Application extends ICF_Object
     		$this->_subdomain = $subdomain;
     	  
     	} else $urlNew = $url;
+	
+	//echo "$url<br/>";
+	//echo "$urlNew<br/>";
     
     	return $urlNew;
     }

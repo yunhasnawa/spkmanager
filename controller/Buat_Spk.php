@@ -45,6 +45,10 @@ class Buat_Spk extends Controller{
 
 		unset($data['submit']);
 		
+		$data = $this->_reformatDate($data, "Y-m-d"); // Turn to Y-m-d
+		
+		$data['status_produksi'] = json_encode($data['status_produksi']);
+		
 		if(count($search) > 0) {
 			
 			$this->_mSpk->edit($data);
@@ -102,15 +106,29 @@ class Buat_Spk extends Controller{
 					
 				}
 				
+				if($key == 'status_produksi') {
+					
+					$data[0][$key] = $this->_mSpk->createStatusProduksiCheckbox($value);
+					
+				}
+				
 			}
 			
 		} else {
 			$data[0]['nomor'] = (int) $this->_mSpk->getLastIndex() + 1;
+			$data[0]['status_produksi'] = $this->_mSpk->createStatusProduksiCheckbox();
 		}
 		
-		//Base::arrdeb($data);
+		$editData = Base::reformat_date($data[0], "d-m-Y", $this->_mSpk->dateFields);
 		
-		return $data[0];
+		return $editData;
+	}
+	
+	private function _reformatDate($arrData, $format)
+	{	
+		$arrFields = array('tanggal', 'permintaan_kirim', 'tanggal_kirim'); 
+		
+		return Base::reformat_date($arrData, $format, $arrFields);
 	}
 	
 }

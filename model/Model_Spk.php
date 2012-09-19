@@ -8,9 +8,30 @@ use framework\icf\library\Base;
 
 class Model_Spk extends Model{
 	
+	public $dateFields = array();
+	
+	private $_statusProduksiNames = array();
+	
 	public function __construct()
 	{
 		parent::__construct('spk');
+		
+		$this->dateFields = array('tanggal', 'permintaan_kirim', 'tanggal_kirim');
+		
+		$this->_statusProduksiNames = array(
+			'Layout',
+			'Plate',
+			'Pisau',
+			'Bahan',
+			'Printing',
+			'Die Cut',
+			'Slit/Inspect'
+		);
+	}
+	
+	public function getStatusProduksiNames()
+	{
+		return $this->_statusProduksiNames;
 	}
 	
 	public function add($values)
@@ -123,6 +144,60 @@ class Model_Spk extends Model{
 		$sql = $this->sql->createUpdate();
 		
 		$this->databaseAccess->executeUpdate($sql);
+	}
+	
+	public function changeStatusProduksi($id, $statusProduksi)
+	{
+		$spJson = json_encode($statusProduksi);
+		
+		$this->sql->setWheres(array('nomor' => $id));
+		
+		$this->sql->setSets(array('status_produksi' => $spJson));
+		
+		$sql = $this->sql->createUpdate();
+		
+		$this->databaseAccess->executeUpdate($sql);
+	}
+	
+	public function createStatusProduksiCheckbox($statusProduksi = "[]")
+	{
+		$arrStatus = json_decode($statusProduksi, true);
+	
+		$arrStatusNames = $this->getStatusProduksiNames();
+	
+		$chkHtml = '';
+	
+		foreach ($arrStatusNames as $status) {
+				
+			$checked = in_array($status, $arrStatus) ? 'checked="checked"' : '';
+				
+			$chktml = <<< PHREDOC
+<tr>
+	<td class="status_td" style="width: 175px;"><label>$status</label></td>
+	<td class="status_td"><input type="checkbox" name="status_produksi[]" value="$status" $checked /></td>
+</tr>
+PHREDOC;
+				
+			$chkHtml .= $chktml;
+				
+		}
+	
+		$html = <<< PHREDOC
+<style type="text/css">
+<!--
+td.status_td{
+	border: 1px solid black;
+	padding: 4px;
+}
+-->
+</style>
+<table>
+	$chkHtml
+</table>
+PHREDOC;
+	
+		return $html;
+	
 	}
 }
 

@@ -1,6 +1,17 @@
 <?php use framework\icf\library\Base; ?>
 <?php include Base::site_dir('/view/header.php'); ?>
 <?php include Base::site_dir('/view/nav.php'); ?>
+<?php echo Base::js('Home'); ?>
+<script type="text/javascript">
+app = new Home();
+$('document').ready(function(){
+	var interval = self.setInterval(function(){updateTime()},1000);
+	function updateTime()
+	{
+		app.updateTime();
+	}
+});
+</script>
 <div class="spkmgr-container">
 	<div style="text-align: center;">
 		<h1 class="spkmgr-main-title">SPK Manager v1.0</h1>
@@ -20,7 +31,7 @@
 			<table class="table table-striped">
 				<tr>
 					<th>Sekarang</th>
-					<td><?php echo $this->date . ' ' . $this->time; ?></td>
+					<td><?php echo $this->date; ?> <a style="text-decoration: none;" id="time_now"></a></td>
 				</tr>
 				<tr>
 					<th>Jumlah SPK</th>

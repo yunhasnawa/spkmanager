@@ -15,5 +15,6 @@
 <body>
 <?php echo Base::css('style'); ?>
 <?php echo Base::js('main'); ?>
+<?php echo Base::js('MessageBox');?>
 <div id="main_container" class="container-fluid">
 <div id="main_wrapper" class="row-fluid">

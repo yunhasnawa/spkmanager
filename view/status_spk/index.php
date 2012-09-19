@@ -59,6 +59,8 @@ function filterByDate(url)
 				<thead>
 					<tr>
 						<?php foreach($heading as $field) { ?>
+  						<?php if($field == 'status') $field = 'jenis'; ?>
+  						<?php if($field == 'status_produksi') $field = 'status'; ?>
 						<th><?php echo Base::spucfirst(str_replace('_', ' ', $field)); ?></th>
 						<?php } ?>
 					</tr>

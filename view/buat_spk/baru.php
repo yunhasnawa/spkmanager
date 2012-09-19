@@ -39,9 +39,9 @@
 							</div>
 							<div class="span4">
 								<div class="control-group">
-									<label class="control-label spkmgr-label" for="status">Status</label>
+									<label class="control-label spkmgr-label" for="status">Jenis</label>
 									<div class="control">
-									<input type="text" name="status" placeholder="status" value="<?php Base::savecho($status, ''); ?>" class="input-xlarge spkmgr-input" onclick="this.value='';"/>
+									<input type="text" name="status" placeholder="jenis SPK" value="<?php Base::savecho($status, ''); ?>" class="input-xlarge spkmgr-input" onclick="this.value='';"/>
 									</div>
 								</div>
 							</div>
@@ -66,6 +66,9 @@
 								<td>MARKETING</td>
 							</tr>
 						</table>
+						<div style="border: 1px solid black; padding: 5px; border-radius: 5px;">
+							SPK Rangkap 5 lihat lampiran contoh
+						</div>
 					</div>
 				</div>
 				<div>
@@ -209,7 +212,7 @@
 							</div>
 						</div>
 						<div class="control-group">
-							<label class="control-label spkmgr-label" for="nomor_piringan">No. Piringan</label>
+							<label class="control-label spkmgr-label" for="nomor_piringan">No. Plate</label>
 							<div class="control">
 							<input type="text" name="nomor_piringan" placeholder="plate" value="<?php Base::savecho($nomor_piringan, ''); ?>" class="input-xlarge spkmgr-input"/>
 							</div>
@@ -224,6 +227,12 @@
 							<label class="control-label spkmgr-label" for="catatan">Catatan</label>
 							<div class="control">
 							<input type="text" name="catatan" placeholder="catatan" value="<?php Base::savecho($catatan, ''); ?>" class="input-xlarge spkmgr-input"/>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label spkmgr-label">Status</label>
+							<div class="control">
+							<?php Base::savecho($status_produksi, ''); ?>
 							</div>
 						</div>
 					</div>

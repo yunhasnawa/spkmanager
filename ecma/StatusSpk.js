@@ -27,21 +27,102 @@ StatusSpk.prototype = {
 			
 			var url = this.url + urlParam;
 			
-			var confirmed = confirm("Ubah status SPK menjadi '" + status + "'?");
+			var confirmed = confirm("Ubah jenis SPK menjadi '" + status + "'?");
 			
 			if(confirmed) {
 				sendSyncGetAjax(url);
 				var response = JSON.parse(ajax.responseText);
 				if(response.result == true) {
-					alert('Status SPK telah diubah.');
+					alert('Jenis SPK telah diubah.');
 				} else {
-					alert('Status SPK gagal diubah, coba beberapa saat lagi atau hubungi administrator!');
+					alert('Jenis SPK gagal diubah, coba beberapa saat lagi atau hubungi administrator!');
 				}
 			} else {
 				this._input.value = origin;
 			}
 		}
 		
+	},
+	
+	showStatusProduksiCheck : function(id) 
+	{
+		var controlId = 'sp_control_' + id;
+		
+		var control = document.getElementById(controlId);
+		
+		control.style.display = 'block';
+	},
+	
+	closeStatusProduksiCheck : function(id, save) 
+	{
+		var controlId = 'sp_control_' + id;
+		
+		var control = document.getElementById(controlId);
+		
+		if(save) this.saveStatusProduksi(control, id);
+		
+		control.style.display = 'none';
+	},
+	
+	_getCheckedStatus : function(chks)
+	{
+		var arrChk = [];
+		
+		for(var i=0; i<chks.length; i++) {
+			
+			if(chks[i].checked) {
+				
+				arrChk.push(chks[i].value);
+				
+			}	
+		}
+		
+		return arrChk;
+	},
+	
+	saveStatusProduksi : function(control, id)
+	{
+		var chks = control.getElementsByTagName('input');
+		
+		var arrChk = this._getCheckedStatus(chks);
+		
+		var spData = {
+			id : id,
+			sp : arrChk
+		}
+		
+		var strArrChk = JSON.stringify(spData);
+		
+		var urlParam = '?spdata=' + strArrChk;
+		
+		var url = this.url + urlParam;
+		
+		var confirmed = confirm("Ubah status SPK ini?");
+		
+		if(confirmed) {
+			
+			sendSyncGetAjax(url);
+			
+			var response = JSON.parse(ajax.responseText);
+			
+			if(response.result == true) {
+				
+				alert('Status SPK telah diubah.');
+				
+				var caption = document.getElementById('sp_caption_' + id);
+				
+				arrChk = this._getCheckedStatus(chks);
+				
+				if(arrChk.length < 1) arrChk.push("New");
+				
+				caption.innerHTML = arrChk[(arrChk.length - 1)];
+				
+			} else {
+				
+				alert('Status SPK gagal diubah, coba beberapa saat lagi atau hubungi administrator!');
+				
+			}
+		}
 	}
 		
-}
+};
