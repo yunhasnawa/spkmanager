@@ -34,12 +34,16 @@ class Buat_Spk extends Controller{
 		$p = $request['post'];
 		$f = $_FILES;
 		
+		$data = $p;
+		
 		$imgFile = $this->_proccessImage($f['file_stiker']);
 		
-		$id = $p['nomor'];
+		if(!empty($imgFile)) {
+			
+			$data['file_stiker'] = '/resource/images/spk/' . $imgFile;
+		}
 		
-		$data = $p;
-		$data['file_stiker'] = '/resource/images/spk/' . $imgFile;
+		$id = $p['nomor'];
 		
 		$search = $this->_mSpk->search('nomor', $id, '=');
 
@@ -47,7 +51,8 @@ class Buat_Spk extends Controller{
 		
 		$data = $this->_reformatDate($data, "Y-m-d"); // Turn to Y-m-d
 		
-		$data['status_produksi'] = json_encode($data['status_produksi']);
+		$data['status_produksi'] = isset($data['status_produksi']) && !empty($data['status_produksi']) ?
+			json_encode($data['status_produksi']) : "[]";
 		
 		if(count($search) > 0) {
 			
@@ -65,16 +70,25 @@ class Buat_Spk extends Controller{
 	private function _proccessImage($file)
 	{
 		$result = '';
+		
+		$isEmptyFileName = false;
 
 		if(!empty($file['name']))
 		{
 			$name = $file['name'];
 			$expl = explode('.', $name);
 			$ext  = end($expl);
+			
 			$newName = md5($name) . '.' . $ext;
-			$tmpName = $file['tmp_name'];
-			move_uploaded_file($tmpName, Base::site_dir('/resource/images/spk/' . $newName));
-			$result = $newName;
+			
+			if(!empty($newName)) {
+				
+				$tmpName = $file['tmp_name'];
+				
+				move_uploaded_file($tmpName, Base::site_dir('/resource/images/spk/' . $newName));
+				
+				$result = $newName;
+			}
 		}
 		
 		return $result;

@@ -123,7 +123,7 @@ class Model_Spk extends Model{
 		
 		$sql = $this->sql->createUpdate();
 		
-		$this->databaseAccess->executeUpdate($sql);
+		$this->databaseAccess->executeUpdate($sql);//die;
 	}
 	
 	public function getLastIndex()
@@ -162,6 +162,9 @@ class Model_Spk extends Model{
 	public function createStatusProduksiCheckbox($statusProduksi = "[]")
 	{
 		$arrStatus = json_decode($statusProduksi, true);
+		
+		if(empty($arrStatus) || $arrStatus == null)
+		    $arrStatus = array();
 	
 		$arrStatusNames = $this->getStatusProduksiNames();
 	
