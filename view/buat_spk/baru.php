@@ -65,10 +65,11 @@
 								<td><strong style="color: green;">HIJAU</strong></td>
 								<td>MARKETING</td>
 							</tr>
+							<tr>
+								<td><strong style="color: blue;">BIRU</strong></td>
+								<td>ARSIP</td>
+							</tr>
 						</table>
-						<div style="border: 1px solid black; padding: 5px; border-radius: 5px;">
-							SPK Rangkap 5 lihat lampiran contoh
-						</div>
 					</div>
 				</div>
 				<div>
